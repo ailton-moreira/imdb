@@ -1,5 +1,5 @@
 import React from "react";
-import Card from '@/app/components/Card'
+import Card from "@/app/components/Card";
 
 export default function Results({ results }) {
   return (

@@ -30,7 +30,7 @@ export default async function Home({ searchParams }) {
 
   return (
     <div className="flex">
-      <Results results={results}/>
+      <Results results={results} />
     </div>
   );
 }
