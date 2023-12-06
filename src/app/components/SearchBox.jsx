@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useRouter } from 'next/navigation';
 
 export default function SearchBox() {
-    const [search, setSearch] = useState(null);
+    const [search, setSearch] = useState('');
     const router = useRouter();
     
     const handleSubmit = (e) => { 
